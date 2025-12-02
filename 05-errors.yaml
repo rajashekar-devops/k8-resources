@@ -5,4 +5,5 @@ metadata:
 
 spec:
   containers:
-  - name: 
+  - name: almalinux
+    image: almaunixlinux87654
