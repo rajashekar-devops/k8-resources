@@ -9,14 +9,14 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    labels:
-      purpose: multi-container
+    # labels:
+    #   purpose: multi-container
   
   - name: almalinux
     image: almalinux:9
     command: ["sleep", "1000"]
-    labels:
-      purpose: multi-container
+    # labels:
+    #   purpose: multi-container
 
 
 
