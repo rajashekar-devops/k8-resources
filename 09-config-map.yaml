@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: config-demo
+  name: config-map
 
 data:
   course: "DevSecOps"
