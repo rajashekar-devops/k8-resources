@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: environment-demo
+
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+    - name: COURSE
+      value: "DevSecOps"
+    - name: TRAINER
+      value: "SivaKumar"
