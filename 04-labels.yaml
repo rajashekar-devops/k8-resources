@@ -5,9 +5,11 @@ metadata:
   labels:
     project: roboshop
     component: frontend
-    environment: dev
-    versiono: v1
+    version: v1
+    environment: development
+
 spec:
   containers:
   - name: frontend
     image: nginx
+    
