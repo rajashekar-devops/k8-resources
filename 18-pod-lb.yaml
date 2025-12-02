@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-lb-demo
+  labels:
+    project: roboshop
+    component: frontend
+    environment: dev
+    purpose: load-Loadbalancer
+
+spec:
+  containers:
+  - name: nginx
+    image: nginx
