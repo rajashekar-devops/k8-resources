@@ -4,6 +4,6 @@ metadata:
   name: config-demo
 
 data:
-  course: DevSecOps
-  trainer: SivaKumar
-  duration: 120hrs
+  course: "DevSecOps"
+  trainer: "SivaKumar"
+  duration: "120hrs"
